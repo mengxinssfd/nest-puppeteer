@@ -22,7 +22,8 @@
     "build": "nest build",
     "lint": "eslint --ext=ts ./src",
     "prepublishOnly": "yarn build",
-    "test": "jest"
+    "test": "jest",
+    "ts:check": "tsc --noEmit --skipLibCheck"
   },
   "peerDependencies": {
     "@nestjs/common": ">=6",
