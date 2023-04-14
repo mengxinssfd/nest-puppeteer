@@ -62,3 +62,4 @@ typings/
 
 dist
 reports/jest-reporter.xml
+.idea
