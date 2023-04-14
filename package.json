@@ -23,7 +23,7 @@
     "lint": "eslint --ext=ts ./src",
     "prepublishOnly": "yarn build",
     "test": "jest",
-    "ts:check": "tsc --noEmit --skipLibCheck"
+    "ts:check": "tsc --noEmit"
   },
   "peerDependencies": {
     "@nestjs/common": ">=6",
